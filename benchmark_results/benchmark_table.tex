@@ -1,0 +1,25 @@
+
+\begin{table}[t]
+\centering
+\caption{Comparison of text generation metrics with published medical VLM benchmarks. 
+Our model is evaluated on domain-specific COVID-19 chest CT data; other models on 
+general medical VQA datasets. Bold indicates best in column.}
+\label{tab:benchmark_comparison}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Model} & \textbf{Dataset} & \textbf{BLEU-1} & \textbf{BLEU-4} & \textbf{ROUGE-L} & \textbf{BERTScore F1} \\
+\midrule
+\textbf{Ours (LLaVA-Med COVID-FT)} & COVID-19 CT & \textbf{0.480} & \textbf{0.218} & 0.384 & \textbf{0.911} \\
+\midrule
+LLaVA-Med v1 \cite{li2023llavamed} & VQA-RAD open & 0.327 & 0.114 & 0.278 & 0.863 \\
+Prefix-Tuning LM \cite{vansonsbeek2023} & SLAKE open & 0.410 & 0.180 & 0.340 & 0.880 \\
+GEMeX LLaVA-Med \cite{liu2025gemex} & GEMeX CXR & 0.380 & -- & 0.310 & 0.870 \\
+Med3DVLM \cite{med3dvlm2025} & M3D-Cap (3D CT) & 0.285 & 0.126 & \textbf{0.403} & 0.881 \\
+M3D-LaMed \cite{m3dlamed2024} & M3D-Cap (3D CT) & 0.151 & 0.043 & 0.196 & 0.885 \\
+MedVInT-TE \cite{zhang2024pmcvqa} & PMC-VQA open & 0.232 & -- & -- & -- \\
+
+\bottomrule
+\end{tabular}%
+}
+\end{table}

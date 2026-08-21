@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-04T13:33:40.365574",
+  "model_path": "./checkpoints/llava-med-7b-finetune-image-caption",
+  "num_samples": 27,
+  "automated_metrics": {
+    "bleu1": 0.10905506139431914,
+    "bleu2": 0.04169469011045148,
+    "bleu3": 0.014419186138368621,
+    "bleu4": 0.007606834579687575,
+    "rouge1": 0.15761738256572336,
+    "rouge2": 0.03559709596152262,
+    "rougeL": 0.12001924313129664,
+    "bertscore_precision": 0.8246169090270996,
+    "bertscore_recall": 0.8360155820846558,
+    "bertscore_f1": 0.8299576640129089
+  },
+  "gpt_evaluation": null,
+  "classification": null
+}

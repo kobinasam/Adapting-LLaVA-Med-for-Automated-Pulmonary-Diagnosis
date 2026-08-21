@@ -1,0 +1,22 @@
+{
+  "timestamp": "20260401_150133",
+  "model_path": "./checkpoints/llava-med-7b-finetune-covid",
+  "image_path": "/work/hdd/bdcc/msam1/LLaVA-Med/images_covid/imagess/normal038_6.png",
+  "question": "Describe the image in detail.",
+  "response": "The image shows a normal lung parenchyma with no significant opacities or consolidations. The lung fields are well-expanded and the pleural spaces are clear. The mediastinal structures, including the aorta and the pulmonary arteries, are also within normal limits.",
+  "methods": {
+    "integrated_gradients": {
+      "n_steps": 50,
+      "output": "./captum_results/captum_ig_20260401_150133.png"
+    },
+    "feature_ablation": {
+      "grid_size": 8,
+      "output": "./captum_results/captum_fa_20260401_150133.png"
+    },
+    "layer_attribution": {
+      "n_steps": 30,
+      "output": "./captum_results/captum_layer_20260401_150133.png"
+    }
+  },
+  "summary": "./captum_results/captum_summary_20260401_150133.png"
+}

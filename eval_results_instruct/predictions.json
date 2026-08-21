@@ -1,0 +1,164 @@
+[
+  {
+    "image": "21139713_F0001.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Chest X ray after thoracoplasty",
+    "prediction": "The chest X-ray image shows bilateral hilar lymphadenopathy, which means there is enlargement of the lymph nodes in the region of the hilum on both sides of the lungs. The hilum is the area where the bronchi, blood vessels, and nerves enter and exit the lungs. Lymphadenopathy can be caused by various factors, such as infections, autoimmune diseases, or malignancies."
+  },
+  {
+    "image": "32009718_F3.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Chest X-ray of a patient at presentation. Patchy areas of consolidation seen throughout the right lung and left upper zone",
+    "prediction": "The image is a computed tomography (CT) scan of the chest. It provides a detailed view of the structures within the chest, including the lungs, heart, blood vessels, and bones. The CT scan can help identify any abnormalities or issues that may be present in the chest area."
+  },
+  {
+    "image": "19838397_F0006.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Chest X-ray: Normal with no signs of metastatic lesions",
+    "prediction": "The image is an MRI scan of the pelvis, which is a part of the human skeletal system. The pelvis is a basin-shaped structure that supports the spinal column and protects the abdominal organs. It consists of the two hip bones, the sacrum, and the coccyx. The MRI scan provides a detailed view of the pelvic bones, muscles, and surrounding soft tissues. It can help identify any abnormalities, injuries, or diseases affecting the pelvic region."
+  },
+  {
+    "image": "34574873_healthcare-09-01099-f007.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Representative sample images of chest X-rays and CT scans used in the mixed dataset adopted for analysis.",
+    "prediction": "The image consists of two parts: an input chest X-ray image on the left and a segmented output image on the right. The input image is a chest X-ray taken of a patient, while the output image is the result of an automated segmentation process that has been applied to the input image to highlight specific structures or regions of interest."
+  },
+  {
+    "image": "30510823_fig2.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Chest X-ray of patient with SHS showing bilateral extensive pneumonic consolidation.",
+    "prediction": "The image is a histopathological view of a tissue sample, which means it has been prepared and stained for microscopic examination. Histopathology is the study of diseased tissue, and it helps to identify any abnormalities or changes in the tissue structure that may be indicative of a disease or condition. In this case, the image is taken at 40x magnification, which allows for a closer examination of the tissue sample. The specific details of the image would depend on the tissue type and any abnormalities or changes that are visible at this magnification."
+  },
+  {
+    "image": "33708306_f0001.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Chest X ray - case 2: mediastinal widening (white arrow)",
+    "prediction": "This chest X-ray image shows a large mass in the right upper lobe of the lung. The mass appears to be an abnormal growth or lesion within the lung tissue."
+  },
+  {
+    "image": "23565458_F2.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Chest X-ray showing pluffy opacities in both lung fields",
+    "prediction": "The image is a high-resolution computed tomography (HRCT) scan of the chest. HRCT is a type of CT scan that provides more detailed images of the lung tissue and structures within the chest cavity. The image likely shows the lungs, heart, blood vessels, and other surrounding structures in greater detail, allowing for better visualization and assessment of any abnormalities or changes in the chest."
+  },
+  {
+    "image": "20733967_F4.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Contrast-enhanced pelvic CT scan showing the aneurysm of the left internal iliac artery protruding into the urinary bladder (transverse view).",
+    "prediction": "The image is a computed tomography (CT) scan of the abdomen. It provides a detailed view of the internal structures within the abdominal cavity, such as organs, blood vessels, and tissues. The CT scan can help identify any abnormalities or issues that may be present in the abdominal region."
+  },
+  {
+    "image": "30546931_F15.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Viral Sialadenitis. Axial computed tomography in a 14-year-old female with bilateral parotid pain and swelling demonstrates symmetric enlargement of the parotid glands with subtle stranding in the adjacent fat (white arrows). Blood work was positive for parainfluenza virus.",
+    "prediction": "The image is a computed tomography (CT) scan of the neck soft tissues. It provides a detailed view of the neck's anatomy, including the muscles, blood vessels, lymph nodes, and other soft tissues. The CT scan can help identify any abnormalities, such as inflammation, infection, or tumors, in the neck region."
+  },
+  {
+    "image": "18652673_F4.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Single photon emission computed tomography (SPECT) images from a depressed patient showing characteristic hypofrontality relative to a healthy control subject[82].",
+    "prediction": "The image is a statistical parametric map overlaid on an MRI template. It shows the associations between lesioned voxels and impaired laryngeal vestibular closure. The image is presented in axial space and follows the neurological orientation. The color scale represents the t-value, which indicates the strength of the association between the lesioned voxels and the impaired laryngeal vestibular closure."
+  },
+  {
+    "image": "29774196_F1.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Computed tomography angiography showing almost normal vascularity of the left middle cerebral artery.",
+    "prediction": "The image is a computed tomography (CT) scan of the brain. It provides a detailed view of the brain's structure, including the various lobes, ventricles, and other anatomical features. The CT scan can help identify any abnormalities or changes in the brain tissue, such as tumors, lesions, or signs of injury."
+  },
+  {
+    "image": "24554380_Fig6.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Avulsion fracture in hyperextension dislocation. Sagittal CT image shows an avulsion fracture at the anterosuperior end plate of C7 (white arrow), with the transverse diameter wider than the vertical diameter. Avulsion of the posteroinferior corner of the C6 vertebral body is also seen (black arrow), which suggests avulsion of the posterior annulus or PLL",
+    "prediction": "The image is a sagittal computed tomography (CT) scan of the cervical spine, specifically focusing on the C5 to C7 vertebrae. The cervical spine is the uppermost part of the spine, located in the neck region, and consists of seven vertebrae. The image shows mild degenerative changes in the cervical spine, with some notable findings:\n\n1. Moderate anterolisthesis of C5 on C6, which means that the C5 vertebra has shifted forward in relation to the C6 vertebra.\n2. Mild anterolisthesis of C6 on C7, indicating that the C6 vertebra has also shifted forward in relation to the C7 vertebra.\n3. Degenerative disc disease with bulging discs at C4/5 and C6/7, which means that the intervertebral discs between these vertebrae have bulged outward, potentially causing pressure on the spinal cord or nerves.\n4. Moderate right-sided foraminal stenosis at C4/5 and C6/7, which refers to the narrowing of the openings (foramina) through which the spinal nerves exit the spinal canal. This narrowing can cause compression of the spinal nerves, potentially leading to pain, numbness, or weakness in the affected areas.\n\nThese findings suggest that there are some degenerative changes occurring in the cervical spine, which may be due to aging, injury, or other factors. It is important for a healthcare professional to evaluate these findings in the context of the patient's clinical history and symptoms to determine the appropriate course of action."
+  },
+  {
+    "image": "32715172_fig1.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Preoperative aortography demonstrating anatomy consistent with the computed tomography scan.",
+    "prediction": "The image is a three-dimensional computed tomography (CT) scan that provides a detailed view of the patient's vascular anatomy. It shows the renal arteries, which are the blood vessels that supply the kidneys with blood, as well as the left and right ureteral arteries, which supply blood to the ureters. The image also reveals the presence of a ureteral arteriovenous fistula, which is an abnormal connection between the ureteral artery and the ureteral vein."
+  },
+  {
+    "image": "24926336_f3-etm-07-06-1521.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "PET-CT scans revealed a nodular soft-tissue density area in the wall of the left-middle ureter at the L3 level, paraaortic and iliac lymphadenopathy and increased FDG uptake in the sternum and right ilium. PET-CT, positron emission tomography-computed tomography; FDG, fludeoxyglucose.",
+    "prediction": "The image consists of two parts: one part shows a histopathological view of a tissue sample stained with hematoxylin and eosin (H&E), and the other part displays a high-power view of the tissue sample with a specific staining technique. The high-power view is magnified 40 times and shows a cellular structure with prominent nucleoli."
+  },
+  {
+    "image": "34026556_fig3.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Gross image of appendix adhered to right kidney.",
+    "prediction": "The image shows a gross specimen of a resected tumor. A gross specimen refers to a sample of tissue that has been removed from the body for examination and can be seen with the naked eye, as opposed to microscopic examination. The tumor has been surgically removed, and the image provides a visual representation of its size, shape, and appearance."
+  },
+  {
+    "image": "29354481_trd-2-trd015-g002.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Gross appearance of cirrhotic liver in Wilson disease.",
+    "prediction": "The image consists of two panels. The first panel (A) shows a histological section of a tumor from a patient who had a complete resection of the primary tumor and metastasis. The section is stained with hematoxylin and eosin (H&E) and is magnified at 200x. The second panel (B) displays an immunohistochemical staining of the same tumor section with an antibody against p53. This staining highlights the presence of p53 protein in the tumor cells and is magnified at 400x."
+  },
+  {
+    "image": "22223938_F2.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Cut surface of the gross specimen shows the brownish-yellow color of the mass, with multiple vessels but without any areas of hemorrhage or necrosis",
+    "prediction": "The axial CT image shows a cross-sectional view of the abdomen, focusing on the distended large bowel. The image reveals two main findings: a large amount of fecal material and a small caliber loop of bowel within the lumen of the large bowel."
+  },
+  {
+    "image": "18318598_pmed-0050054-g009.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Histological Phenotype of Mice with Muc2 Mutations PAS/Alcian blue stained intestinal sections from Winnie and wild-type C57BL/6 mice. Note the reduced size of Alcian blue staining thecae (stored mucin) and the presence of PAS-positive/Alcian blue negative accumulations (arrows) in Winnie goblet cells. L, lumen.",
+    "prediction": "The image is a histological section of the distal large intestine from a pig. It has been stained with hematoxylin and eosin (H&E) to visualize the tissue structure and cellular details. The image shows the differences in the tissue morphology between pigs with different genotypes and a specific treatment.\n\nThe first column shows a wild-type (WT) pig without the WIN treatment. The second column presents a WT pig with the WIN treatment. The third column displays a WT pig without the WIN treatment, which is used as a reference for comparison. The fourth column presents a WT pig with the WIN treatment, also used as a reference for comparison. The arrow in the image indicates the location of the WIN treatment.\n\nThe tissue structure and cellular details can provide insights into the effects of the WIN treatment on the pig's large intestine. By comparing the different genotypes and treatment conditions, researchers can better understand the impact of the WIN treatment on the pig's intestinal health and function."
+  },
+  {
+    "image": "18063892_F2.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "The gross histopathologic finding disclosed the portion of conjunctiva showing a cystic wall lined by a single layer of low cuboidal epithelium with edema and congestion measuring 0.1-0.2 ml in volume. (H & E stain, \u00d7100)",
+    "prediction": "The image is a gross view of the eye, which means it shows the eye's appearance without the use of a microscope. It likely displays the external structures of the eye, such as the cornea, iris, and pupil, as well as any visible abnormalities or signs of disease. The image may be taken during an eye examination or as part of a diagnostic process to assess the health of the eye."
+  },
+  {
+    "image": "34267836_F6.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Mixed adenocarcinoma high-grade neuroendocrine carcinoma in metastatic liver lesion (H&E, original \u00d7 400). H&E: hematoxylin and eosin stain.",
+    "prediction": "The image is a histopathological view of a tissue sample, which has been stained with hematoxylin and eosin (H&E). This staining technique is commonly used to visualize the structure and morphology of cells and tissues. In this particular image, there are two distinct features that can be observed. First, there is a proliferation of Brunner's glands, which are specialized exocrine glands found in the duodenum, the first part of the small intestine. Second, there is an infiltration of eosinophils, which are a type of white blood cell involved in the immune response. The presence of these two features may indicate an underlying pathological condition or inflammation in the tissue."
+  },
+  {
+    "image": "32952957_F3.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Absence of signs of fibrosis in the left ventricles of 3, 5, 3\u2019 triiodo-L-thyronine treated rats. (top) Representative microphotographs of histological slices stained with Sirius Red of hearts from short-term T3 treated and vehicle-treated rats (red color indicates collagen fibers; scale bar 25 \u00b5m). (bottom) Quantitative analysis of left ventricular collagen-positive areas in each of the different animal groups. The positively stained collagen area was expressed as a percentage of the total area. Short-term hyperthyroidism was induced by the daily subcutaneous injection of T3 (500 \u03bcg.kg-1) for 1 (T31d), 3 (T33d), and 10 (T310d) days. Control animals were injected daily with the vehicle for 1 (V1d), 3 (V3d), and 10 (V10d) days. Values are means\u00b1SEM. P not significant; n= 60 randomly chosen frames from 6 hearts per group (one-way ANOVA)",
+    "prediction": "The image is a histological section of the gastrocnemius muscle, which is a large muscle located in the calf region of the leg. The histological section is stained with hematoxylin and eosin (H&E), a common staining technique used to visualize the structure of cells and tissues. The image shows the muscle fibers and their organization within the muscle tissue."
+  },
+  {
+    "image": "30420960_fig3.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Ultrasound image (left side) with the corresponding multiplanar reconstructed MR image (right side) of a 55-year-old woman who underwent a previous surgery of the left breast for invasive ductal carcinoma (IDC, pT2N0). After 6 months, a follow-up MR was performed showing a rounded enhancing lesion in the left internal mammary chain (green cross). Second-look ultrasound with coregistration revealed a pathological lymph node.",
+    "prediction": "The image is likely an ultrasound or MRI scan of a patient's breast. It shows a mass in the left upper outer quadrant of the breast, which is the area where the needle biopsy was performed. The mass measures approximately 10 x 10 mm in size."
+  },
+  {
+    "image": "29484042_f0010.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Fetal MRI SSFSE sequence shows the stenotic right main bronchus (blue arrow) comes from the sloping left main bronchus (red arrow), the position of pseudo carina is low (white arrow).which form a bridging bronchus in type II. LMB, left main bronchus; MRI, magnetic resonance imaging; SSFSE, single-shot fast spin echo.",
+    "prediction": "The image is a multiplanar reconstruction of a cardiac MRI, which provides a detailed view of the heart's anatomy. It shows the left pulmonary artery (LPA) arising from the right pulmonary artery (RPA) and joining the left main pulmonary artery (LPA) to form a common trunk. The image also shows the right superior vena cava (SVC) and the ductus arteriosus (DA) in close proximity to the LPA."
+  },
+  {
+    "image": "30910324_fig6.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Motion-corrected MRI data from a fetus with double aortic arch at 32 weeks Shown are the descending aorta (DAo), arterial duct (D), and left (L) and right (R) aortic arches. At 2 months postnatal age, contrast-enhanced MRI could show a right-sided arch (middle panel); however, a ligamentous remnant of the left arch was predicted on the basis of the fetal MRI findings (asterisk); this finding was confirmed at surgery (right panel). The distal remnant of the arterial duct\u2014analogous to the diverticulum of Kommerell\u2014is also seen (K). See video 3 for more detail.",
+    "prediction": "The image is a three-dimensional computed tomography (CT) scan that provides a detailed view of the anatomy and structures within the chest. It includes the heart, great vessels, and surrounding blood vessels, such as the aorta and pulmonary arteries. The image also shows the coronary arteries, which supply blood to the heart muscle."
+  },
+  {
+    "image": "24179348_f1c-ccrep-1-2008-057.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Sagittal T2-w MRI demonstrates compression of the esophagus by anterior osteophytes.",
+    "prediction": "The image is a sagittal T2-weighted MRI of the cervical spine, specifically focusing on the C7 vertebra. The cervical spine is the upper part of the spine, consisting of the first seven vertebrae that support the neck and head. The C7 vertebra is the lowest of these seven vertebrae and plays a crucial role in the stability and range of motion of the neck."
+  },
+  {
+    "image": "32867401_materials-13-03795-f007.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "A schematic representing a multi-modal Janus nanoparticulate system composed of a SPION/MSN core/shell face and Au nanoparticle face. T2 MRI contrast capabilities arise from the encapsulated SPION with Au nanoparticles providing the possibility for CT imaging. As shown in this schematic, the system is functionalised with a fluorescent dye (Alexa Fluor\u00ae 647) for optical imaging in addition to cRDG for active tumour targeting. Reprinted with permission from reference [178]. Copyright (2018) American Chemical Society.",
+    "prediction": "The image is a schematic representation of a nanoplatform for cancer theranostics. It is designed to combine multiple therapeutic modalities, such as photothermal therapy (PTT), photodynamic therapy (PDT), and sonodynamic therapy (SDT), as well as magnetic resonance imaging (MRI) for real-time monitoring. The nanoplatform is composed of various components, including multifunctional Pt@mSiO2 nanoparticles (mPt@mSiO2 NPs), mPt@mSiO2/poly(allylamine hydrochloride) (mPt@mSiO2/PA), and mPt@mSiO2/poly(allylamine hydrochloride)/gadolinium(III) chelate (mPt@mSiO2/PA-Gd). These components work together to provide a comprehensive and targeted approach for cancer treatment and monitoring."
+  },
+  {
+    "image": "24614132_pone-0091649-g005.jpg",
+    "question": "Describe the image in detail.",
+    "ground_truth": "Scatter matrix of the PET/CT and DCE-MRI metrics in AC of the lung.",
+    "prediction": "The image is a graphical representation of the relationship between the standardized uptake value ratio (SUVR) of F-fluorodeoxyglucose (FDG) and various clinical parameters in patients with rheumatoid arthritis (RA). The graph shows the correlation between SUVR and the following parameters: erythrocyte sedimentation rate (ESR), C-reactive protein (CRP), Disease Activity Score based on 28 joints (DAS-28), MRI inflammatory joints count (MJC), and the visual analog scale (VAS) assessment of pain. The graph also includes data for the whole patient population and for subgroups defined by age, sex, and duration of RA."
+  }
+]

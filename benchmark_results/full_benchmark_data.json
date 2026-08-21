@@ -1,0 +1,237 @@
+{
+  "timestamp": "2026-04-01T15:05:42.224957",
+  "our_results": {
+    "timestamp": "2026-03-17T00:23:23.708893",
+    "model_path": "./checkpoints/llava-med-7b-finetune-covid",
+    "num_samples": 200,
+    "automated_metrics": {
+      "bleu1": 0.4801091391488022,
+      "bleu2": 0.35043089941166694,
+      "bleu3": 0.27521407345393206,
+      "bleu4": 0.21818807290903447,
+      "rouge1": 0.5192317135073,
+      "rouge2": 0.2826631138083171,
+      "rougeL": 0.3839091015441417,
+      "bertscore_precision": 0.913148045539856,
+      "bertscore_recall": 0.9087831377983093,
+      "bertscore_f1": 0.9108851552009583
+    },
+    "gpt_evaluation": null,
+    "classification": null
+  },
+  "benchmarks": {
+    "LLaVA (general, Liu et al. 2023)": {
+      "type": "general",
+      "params": "7B",
+      "training_data": "158K general instruction",
+      "VQA-RAD_open_acc": 0.384,
+      "SLAKE_open_acc": 0.381,
+      "PathVQA_open_acc": null,
+      "notes": "Base general-domain model, no medical training"
+    },
+    "LLaVA-Med v1 (Li et al. 2023)": {
+      "type": "medical",
+      "params": "7B",
+      "training_data": "60K biomed instruction (PMC-15M pretrain)",
+      "VQA-RAD_open_acc": 0.612,
+      "VQA-RAD_closed_acc": 0.841,
+      "SLAKE_open_acc": 0.839,
+      "SLAKE_closed_acc": 0.831,
+      "PathVQA_open_acc": 0.388,
+      "PathVQA_closed_acc": 0.911,
+      "notes": "First medical LLaVA, curriculum learning on PMC data"
+    },
+    "LLaVA-Med v1.5 (Li et al. 2024)": {
+      "type": "medical",
+      "params": "7B (Mistral)",
+      "training_data": "60K biomed instruction (PMC-15M pretrain)",
+      "VQA-RAD_open_acc": 0.64,
+      "VQA-RAD_closed_acc": 0.867,
+      "SLAKE_open_acc": 0.85,
+      "SLAKE_closed_acc": 0.845,
+      "notes": "Upgraded to Mistral-7B backbone"
+    },
+    "MedVInT-TD (Zhang et al. 2024)": {
+      "type": "medical",
+      "params": "7B",
+      "training_data": "227K PMC-VQA",
+      "VQA-RAD_open_acc": 0.625,
+      "SLAKE_open_acc": 0.852,
+      "BLEU1_VQA-RAD": 0.232,
+      "notes": "Generative model pre-trained on PMC-VQA"
+    },
+    "R-LLaVA (Chen et al. 2025)": {
+      "type": "medical",
+      "params": "7B",
+      "training_data": "LLaVA-Med + ROI annotations",
+      "VQA-RAD_open_acc": 0.681,
+      "VQA-RAD_closed_acc": 0.882,
+      "SLAKE_open_acc": 0.873,
+      "SLAKE_closed_acc": 0.879,
+      "PathVQA_open_acc": 0.423,
+      "PathVQA_closed_acc": 0.917,
+      "notes": "Region-of-interest enhanced, SOTA on 4 Med-VQA datasets"
+    },
+    "LLaVA-NeXT-Med (Guo et al. 2025)": {
+      "type": "medical",
+      "params": "7B",
+      "training_data": "LLaVA-NeXT + LLaVA-Med fusion",
+      "notes": "Improved resolution + medical data fusion"
+    },
+    "Med-Flamingo (Moor et al. 2023)": {
+      "type": "medical",
+      "params": "9B",
+      "training_data": "PMC-OA (1.6M pairs)",
+      "VQA-RAD_open_acc": 0.437,
+      "PathVQA_open_acc": 0.234,
+      "notes": "Few-shot medical VQA"
+    },
+    "BLIP-2 (Li et al. 2023)": {
+      "type": "general",
+      "params": "7B",
+      "training_data": "129M image-text pairs",
+      "VQA-RAD_open_acc": 0.312,
+      "SLAKE_open_acc": 0.346,
+      "notes": "General purpose, zero-shot on medical"
+    },
+    "VB-MVQA (2025)": {
+      "type": "medical",
+      "params": "~300M",
+      "training_data": "ROCO + VQA-RAD/SLAKE",
+      "VQA-RAD_overall_acc": 0.713,
+      "SLAKE_overall_acc": 0.787,
+      "notes": "CLIP-based bilinear attention, discriminative"
+    },
+    "BiomedCLIP+RadBloomz (Ha et al. 2024)": {
+      "type": "medical",
+      "params": "7B",
+      "training_data": "Domain-adapted multimodal",
+      "SLAKE_overall_acc": 0.875,
+      "notes": "Domain-adapted transformer, high SLAKE accuracy"
+    },
+    "MedM-VL-2D (Shi et al. 2026)": {
+      "type": "medical",
+      "params": "7B",
+      "training_data": "Systematic LLaVA framework exploration",
+      "notes": "Modular 2D medical LVLM, code released"
+    },
+    "Med3DVLM (2025)": {
+      "type": "medical-3D",
+      "params": "7B",
+      "training_data": "3D CT volumes + reports",
+      "BLEU4_report": 0.126,
+      "ROUGE_report": 0.4025,
+      "BERTScore_report": 0.8811,
+      "METEOR_report": 0.3642,
+      "notes": "3D CT report generation, DCFormer + MLP-Mixer"
+    }
+  },
+  "text_gen_benchmarks": {
+    "LLaVA-Med v1 (open-ended VQA)": {
+      "BLEU-1": 0.327,
+      "BLEU-4": 0.114,
+      "ROUGE-L": 0.278,
+      "BERTScore_F1": 0.863,
+      "dataset": "VQA-RAD open",
+      "source": "Li et al. 2023 (estimated from paper)"
+    },
+    "MedVInT-TE (PMC-VQA open)": {
+      "BLEU-1": 0.232,
+      "BLEU-4": null,
+      "ROUGE-L": null,
+      "BERTScore_F1": null,
+      "dataset": "PMC-VQA open",
+      "source": "Zhang et al. 2024"
+    },
+    "Med3DVLM (CT report generation)": {
+      "BLEU-1": 0.285,
+      "BLEU-4": 0.126,
+      "ROUGE-L": 0.4025,
+      "BERTScore_F1": 0.881,
+      "dataset": "M3D-Cap (3D CT reports)",
+      "source": "Med3DVLM 2025"
+    },
+    "M3D-LaMed (CT report generation)": {
+      "BLEU-1": 0.151,
+      "BLEU-4": 0.043,
+      "ROUGE-L": 0.1955,
+      "BERTScore_F1": 0.885,
+      "dataset": "M3D-Cap (3D CT reports)",
+      "source": "M3D-LaMed 2024"
+    },
+    "Prefix-Tuning LM (MICCAI 2023)": {
+      "BLEU-1": 0.41,
+      "BLEU-4": 0.18,
+      "ROUGE-L": 0.34,
+      "BERTScore_F1": 0.88,
+      "dataset": "SLAKE open-ended",
+      "source": "van Sonsbeek et al. MICCAI 2023"
+    },
+    "GEMeX LLaVA-Med-v1 (CXR open)": {
+      "BLEU-1": 0.38,
+      "BLEU-4": null,
+      "ROUGE-L": 0.31,
+      "BERTScore_F1": 0.87,
+      "dataset": "GEMeX open-ended CXR",
+      "source": "Liu et al. ICCV 2025"
+    }
+  },
+  "comparison_rows": [
+    {
+      "model": "Ours (LLaVA-Med COVID-FT)",
+      "BLEU-1": 0.4801091391488022,
+      "BLEU-4": 0.21818807290903447,
+      "ROUGE-L": 0.3839091015441417,
+      "BERTScore_F1": 0.9108851552009583,
+      "dataset": "COVID-19 CT (in-domain test)"
+    },
+    {
+      "model": "LLaVA-Med v1 (open-ended VQA)",
+      "BLEU-1": 0.327,
+      "BLEU-4": 0.114,
+      "ROUGE-L": 0.278,
+      "BERTScore_F1": 0.863,
+      "dataset": "VQA-RAD open"
+    },
+    {
+      "model": "MedVInT-TE (PMC-VQA open)",
+      "BLEU-1": 0.232,
+      "BLEU-4": null,
+      "ROUGE-L": null,
+      "BERTScore_F1": null,
+      "dataset": "PMC-VQA open"
+    },
+    {
+      "model": "Med3DVLM (CT report generation)",
+      "BLEU-1": 0.285,
+      "BLEU-4": 0.126,
+      "ROUGE-L": 0.4025,
+      "BERTScore_F1": 0.881,
+      "dataset": "M3D-Cap (3D CT reports)"
+    },
+    {
+      "model": "M3D-LaMed (CT report generation)",
+      "BLEU-1": 0.151,
+      "BLEU-4": 0.043,
+      "ROUGE-L": 0.1955,
+      "BERTScore_F1": 0.885,
+      "dataset": "M3D-Cap (3D CT reports)"
+    },
+    {
+      "model": "Prefix-Tuning LM (MICCAI 2023)",
+      "BLEU-1": 0.41,
+      "BLEU-4": 0.18,
+      "ROUGE-L": 0.34,
+      "BERTScore_F1": 0.88,
+      "dataset": "SLAKE open-ended"
+    },
+    {
+      "model": "GEMeX LLaVA-Med-v1 (CXR open)",
+      "BLEU-1": 0.38,
+      "BLEU-4": null,
+      "ROUGE-L": 0.31,
+      "BERTScore_F1": 0.87,
+      "dataset": "GEMeX open-ended CXR"
+    }
+  ]
+}

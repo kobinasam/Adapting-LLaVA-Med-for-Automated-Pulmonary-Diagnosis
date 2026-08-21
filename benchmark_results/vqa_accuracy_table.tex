@@ -1,0 +1,20 @@
+
+\begin{table}[t]
+\centering
+\caption{Open-ended VQA accuracy on standard medical benchmarks (published results). 
+Our model targets COVID-19 CT specifically rather than general medical VQA.}
+\label{tab:vqa_accuracy}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Model} & \textbf{VQA-RAD} & \textbf{SLAKE} & \textbf{PathVQA} \\
+\midrule
+BLIP-2 (general) & 31.2\% & 34.6\% & -- \\
+LLaVA (general) & 38.4\% & 38.1\% & -- \\
+Med-Flamingo & 43.7\% & -- & 23.4\% \\
+LLaVA-Med v1 & 61.2\% & 83.9\% & 38.8\% \\
+LLaVA-Med v1.5 & 64.0\% & 85.0\% & -- \\
+MedVInT-TD & 62.5\% & 85.2\% & -- \\
+R-LLaVA (SOTA) & \textbf{68.1\%} & \textbf{87.3\%} & \textbf{42.3\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
